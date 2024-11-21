@@ -11,7 +11,7 @@
 
     ```bash
     cd eval_on_irl
-
+    python DK_impl.py --config-file-name envs/vvcgym_config.json --exp-name DK_seed1 --train-env-num 64 --eval-env-num 32 --eval-freq 3000 --eval-episodes 96 --total-timesteps 200000000 --train-seed 42 --eval-seed 12 --rollouts-path demos_forIRL.npy
     ```
 
 2. AIRL
